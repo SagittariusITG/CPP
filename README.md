@@ -1,2 +1,2 @@
 # CPP
-Programación en c++
+Programación en c++ en el ITGranada.
