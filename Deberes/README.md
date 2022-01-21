@@ -2,6 +2,11 @@
 
 Estos son los deberes que puso Celia para el día 21-01-2022.
 
+## Enunciado del ejercicio
+
+* Crear función de valor absoluto (quitar signos).
+* Arreglar la función muchaDiferencia() para que funcione con cualquier edad (mayor o menor que la tuya).
+
 ## Funciones
 
 * Compara dos numeros.
@@ -26,3 +31,6 @@ int valAbsoluto(int valor){
 }
 
 ```
+## Output
+
+Te pregunta la edad y si eres mayor o menor que yo te salta una frase y la diferencia de edad entre los dos.
