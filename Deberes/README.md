@@ -4,7 +4,7 @@ Estos son los deberes que puso Celia para el día 21-01-2022.
 
 ## Funciones
 
-Compara dos numeros.
+* Compara dos numeros.
 
 ```cpp
 int diffEdades(int edadIntro, int miEdad){
@@ -18,7 +18,7 @@ int diffEdades(int edadIntro, int miEdad){
 }
 ```
 
-Devuelve los números en forma de números absolutos.
+* Devuelve los números en forma de números absolutos.
 
 ```cpp
 int valAbsoluto(int valor){
