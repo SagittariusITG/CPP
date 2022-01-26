@@ -51,22 +51,14 @@ int calcular_dias(int edad_meses){
 > Esta función calcula cuantos dientes pierde el tiburón durante los 8 años (Específico).
 
 ```cpp
-int calcular_dientes(int meses){
+int calcular_dientes(int meses, int anio_max){
     int sumar = 0;
+    anio_max = (calcular_meses(anio_max));
     int meses_tiene_top_anios = 96;
-    if(meses <= meses_tiene_top_anios){
-        for (int i = 0; i < meses; i += 5){
-            sumar += i;
-        }
-    }else{ // Aqui he hecho otro bucle para "automatizarlo", si, hay que calcular cuantos meses tiene 8 años, pero no he visto más opciones :(
-        for (int i = 0; i < meses_tiene_top_anios; i += 5){
-            sumar += i;
-        }
+    for (int i = 0; i <= meses && i < anio_max; i += 5){
+        sumar += i;
     }
+
     return sumar;
 }
 ```
-
-## Aclaraciones
-
-* En la función de calcular los dientes he hecho dos bucles porque no sabía cómo hacer para que no salieran más de 950 sin poner el segundo bucle.
