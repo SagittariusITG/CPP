@@ -16,7 +16,7 @@ int calcular_dias(int edad_meses){
 int calcular_dientes(int meses, int anio_max){
     int sumar = 0;
     anio_max = (calcular_meses(anio_max));
-    int meses_tiene_top_anios = 96;
+
     for (int i = 0; i <= meses && i < anio_max; i += 5){
         sumar += i;
     }
