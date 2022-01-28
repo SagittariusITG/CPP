@@ -9,15 +9,31 @@ Estos son los deberes que puso Celia para el día 25-01-2022.
 
 ## Funciones
 
-* Añade los números del 0 al 99 en un vector.
+* Rellena un vector con los 100 primeros números.
 
 ```cpp
-void aniadir_vector(int array[], int length){
-    int contador = 0;
-    cout << endl << "100 valores: " << endl << endl;
-    for (int i = 0; i < length; i++){
-        array[i] = contador;
-        contador++;
+void aniadir_vector(int array[], int tamanio){
+  for (int i = 0 ; i < tamanio ; i++){
+    array[i] = i;
+  }
+}
+```
+
+* Suma los números de 4 en 4 de un vector.
+
+```cpp
+void sumar_4_en_4(int num[], int tamanio, int sumaNum[]){
+    for(int i = 0; i < tamanio; i+=4){
+        sumaNum[i/4] = i + i+1 + i+2 + i+3;
+    }
+}
+```
+
+* Imprime por pantalla cualquie vector.
+
+```cpp
+void imprimirArray(int array[], int tama){
+    for (int i = 0 ; i < tama ; i++){
         if(i % 5 == 0){
             cout << endl;
         }
@@ -25,14 +41,3 @@ void aniadir_vector(int array[], int length){
     }
 }
 ```
-
-* Esta función debería sumar los números de 4 en 4 y añadirlos en otro array.
-
-```
-Como no he sabido hacerlo, te diré más o menos como se podría hacer.
-
-* Recrorreríamos el otro vector de 4 en 4 (i += 4 en lugar de i++).
-* Iríamos sumando los números de cada posición (numero[i] += numero[i]).
-```
-
-No sé explicarmexd.
