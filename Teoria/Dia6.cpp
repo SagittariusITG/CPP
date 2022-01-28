@@ -9,7 +9,7 @@ using namespace std;
 // }
 
 int main(){
-    int numJuegos = 10, length;
+    int numJuegos = 100, length;
     string juegos[numJuegos];
     string valor;
 
@@ -29,6 +29,7 @@ int main(){
         cout << "Juego " << i << " = " << juegos[i] << endl;
     }
 
+    cout << "Tamaño en bytes: " << sizeof(juegos) << endl; // Tamaño de array en bytes
     // mostrar_array(juegos, length);
 
     return 0;
