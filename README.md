@@ -8,3 +8,14 @@ Aquí tendré todo lo que es de programación de c++ que haga en el ITG.
 
 * VSCode
 * Tower Git
+
+## Template.cpp
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    return 0;
+}
+```
