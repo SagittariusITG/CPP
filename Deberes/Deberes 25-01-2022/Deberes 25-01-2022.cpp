@@ -1,12 +1,20 @@
 #include <iostream>
 using namespace std;
 
-void aniadir_vector(int array[], int length){
-    int contador = 0;
-    cout << endl << "100 valores: " << endl << endl;
-    for (int i = 0; i < length; i++){
-        array[i] = contador;
-        contador++;
+void aniadir_vector(int array[], int tamanio){
+  for (int i = 0 ; i < tamanio ; i++){
+    array[i] = i;
+  }
+}
+
+void sumar_4_en_4(int num[], int tamanio, int sumaNum[]){
+    for(int i = 0; i < tamanio; i+=4){
+        sumaNum[i/4] = i + i+1 + i+2 + i+3;
+    }
+}
+
+void imprimirArray(int array[], int tama){
+    for (int i = 0 ; i < tama ; i++){
         if(i % 5 == 0){
             cout << endl;
         }
@@ -15,11 +23,13 @@ void aniadir_vector(int array[], int length){
 }
 
 int main(){
-    int cantidad = 100, nums[cantidad], length;
+    int tamanio = 100, nums[tamanio], sumaNum[tamanio/4];
 
-    length = *(&nums + 1) - nums;
-
-    aniadir_vector(nums, length);
+    aniadir_vector(nums, tamanio);
+    sumar_4_en_4(nums, tamanio, sumaNum);
+    cout << endl << "Sumatorio de los 100 primeros números." << endl;
+    imprimirArray(sumaNum, tamanio/4);
+    cout << endl;
 
     return 0;
 }
