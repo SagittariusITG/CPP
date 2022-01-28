@@ -49,20 +49,20 @@ void array_par(int array[], int tamanio, int nuevo_array[]){
     }
 }
 
-void imprimirArray(int array[], int tama){
-    for (int i = 0 ; i < tama ; i++){
+void imprimirArray(int array[], int tamanio){
+    for (int i = 0 ; i < tamanio ; i++){
         cout << array[i];
     }
 }
 
 int main(){
     string passw, respuesta;
-    int numspar[] = {3, 2, 6, 5, 8, 9, 2, 1}, nuevo_array[9];
+    int numspar[] = {3, 2, 6, 5, 8, 9, 2, 1}, nuevo_array[8];
     int edad, numero, tamanio;
     float nota;
 
     passw = "aaa";
-    tamanio = 9;
+    tamanio = 8;
 
     contrasenia(passw, respuesta);
 
@@ -80,8 +80,8 @@ int main(){
 
     cout << numero << respuesta << endl << endl;
 
-    array_par(numspar, 9, nuevo_array);
-    imprimirArray(nuevo_array, 9);
+    array_par(numspar, tamanio, nuevo_array);
+    imprimirArray(nuevo_array, tamanio);
 
     cout << endl << endl;
 

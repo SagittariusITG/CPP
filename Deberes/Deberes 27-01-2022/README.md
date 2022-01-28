@@ -67,3 +67,13 @@ void es_par(int &num, string &respuesta){
     }
 }
 ```
+
+* Imprime por pantalla un array.
+
+```cpp
+void imprimirArray(int array[], int tamanio){
+    for (int i = 0 ; i < tamanio ; i++){
+        cout << array[i];
+    }
+}
+```
