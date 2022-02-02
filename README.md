@@ -2,11 +2,13 @@
 
 Aquí tendré todo lo que es de programación de c++ que haga en el ITG.
 
+![Logo c++](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg "C++")
+
 ## Programas utilizados
 
 > Para estos "ejercicios" estoy usando los siguientes programas.
 
-* VSCode ![Logo c++](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg "C++")
+* VSCode
 * Tower Git
 
 ## Template.cpp
