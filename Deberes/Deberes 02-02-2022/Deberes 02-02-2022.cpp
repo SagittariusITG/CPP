@@ -1,13 +1,19 @@
 #include <iostream>
 using namespace std;
 
+int imprimir_nums(){
+    for(int i = 100; i > 0; i--){
+        if(i % 10 == 0){
+            cout << endl;
+        }
+        cout << i << "\t";
+    }
+}
+
 int main(){
-    int num[100];
+    imprimir_nums();
+    cout << endl;
 
-    do{
-        cout << "Introduce un número: "; cin >> num[];
-
-    }while(num[] != -1);
 
     return 0;
 }
