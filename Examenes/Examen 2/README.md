@@ -27,6 +27,22 @@ Reorganiza los crustáceos para que en todas las peceras haya un número múltip
 
 ## Funciones
 
+> Funcion para dar de comer
+
+```cpp
+void comida_pulpo(string respuesta){
+    string comida;
+    comida = "crustaceo";
+    while(respuesta != comida){
+        cout << "Pulpo: Tengo hambre!!" << endl;
+        cout << "Yo: Pues toma "; cin >> respuesta;
+        cout << endl;
+    }
+}
+```
+
+Esta función también puede ser usada como "detector" de contraseñas, es decir, hasta que no adivine la palabra en concreto el progroama no sigue.
+
 > Función a la que le introduces un número decimal y te lo devuelve en octal.
 
 ```cpp
