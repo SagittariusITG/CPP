@@ -2,7 +2,7 @@
 
 Estos son los deberes que puso Celia para el día 04-02-2022 ya que estaba enferma y no pudimos dar clase.
 
-## Enunciados
+## Enunciados 📄
 
 Antes de empezar:
 1. Escribe tu nombre por pantalla.
@@ -67,6 +67,9 @@ int main(){
 ```
 
 ### Ejercicio 2.1
+
+Función
+
 ```cpp
 void insert_0_and_1_vec(int array[], int size){
     for(int i = 0; i < size - 1; i++){
@@ -75,6 +78,8 @@ void insert_0_and_1_vec(int array[], int size){
     array[size] = 1;
 }
 ```
+
+Main
 
 ```cpp
 int empty_vec[10];
@@ -86,6 +91,8 @@ cout << endl << endl;
 ```
 
 ### Ejercicio 3 y 3.1
+
+Función
 
 ```cpp
 void copy_array(int array[], int arr[], int size){
@@ -106,6 +113,8 @@ void decrement_in_5(int array[], int position){
     }while(array[position] == 0);
 }
 ```
+
+Main
 
 ```cpp
 int copy_greater_than[10];
@@ -141,13 +150,13 @@ int n_rand;
 n_rand = rand % 30 + 1985; // Crea un número random entre 1985 y 2014
 ```
 
-## Batería de pruebas
+## 🛠 Batería de pruebas 🛠
 
 * Para el ejercicio 2 simplemente he ido poniendo números partiendo del 5, por ejemplo, `5, 6, 4, 7, 1, 9, 3, 8, 3, 6`.
 
 * Para el ejercicio 3.1
 
-## Problemas durante el desarrollo
+## ❌ Problemas durante el desarrollo ❌
 
 * Literalmente 1:15h para hacer el ejercicio 2.
 
