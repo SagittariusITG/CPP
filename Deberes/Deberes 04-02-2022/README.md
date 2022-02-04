@@ -212,3 +212,5 @@ int main(){
 * Literalmente 1:15h para hacer el ejercicio 2.
 
 * He tenido complicaciones ya que quería resumirlo todo mucho. Encuentro mucha más dificultad (obviamente) en el programar con C++ que con Python, el manejo de `arrays` es muy diferente y más complicado en C++, no lo asimilo muy bien aún.
+
+* En los ejercicios 3.1 y 3.2 no me funcionan bien, no entiendo por que no me hacen bien el bucle.
