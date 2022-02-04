@@ -4,12 +4,9 @@ Estos son los deberes que puso Celia para el día 04-02-2022 ya que estaba enfer
 
 ## Enunciados 📄
 
-Antes de empezar:
 1. Escribe tu nombre por pantalla.
 2. Rellena un vector de tamaño 10 con números mayores a 5 solicitando dichos números desde teclado.
 2.1. Rellena otro vector de tamaño 10 con nueve 0s y un 1.
-
-Vamos a jugar:
 3. ¡Di un número del 1 al 10!
 3.1. En el primer vector decrementa en 5 unidades el número que esté en la posición que se haya introducido por pantalla. Si ese número es menor a 5, la posición debe quedarse a 0.
 Deja de solicitar números cuando alguna de las posiciones se quede a 0.
