@@ -122,6 +122,33 @@ decrement_in_5(copy_greater_than, respuesta);
 
 ### Ejercicio 3.2
 
+> Función
+
+```cpp
+void find_true(int array[]){
+    int resp, contador;
+    resp = 0;
+    contador = 0;
+    do{
+        cout << "Encuentra el 1: "; cin >> resp;
+        if(array[contador] == resp){
+            cout << "Has acertado!" << endl;
+        }else{
+            cout << "Prueba otra vez!" << endl;
+        contador++;
+        }
+    }while(array[contador] == resp or contador == 5);
+}
+```
+
+> Main
+
+```cpp
+int empty_vec[10];
+
+find_true(empty_vec);
+```
+
 ### Ejercicio 4
 
 Para crear listas aleatorias hay que importar la libreria <cstdlib>.
@@ -144,6 +171,34 @@ n_rand = rand % 100 + 1; // Crea un número random entre 1 al 100
 int n_rand;
 
 n_rand = rand % 30 + 1985; // Crea un número random entre 1985 y 2014
+```
+
+> Practica
+
+```cpp
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+void insert_random_nums(int array[], int size){
+    int n;
+    for(int i = 0; i < size; i++){
+        n = rand() % 100;
+        array[i] = n;
+    }
+}
+
+
+int main(){
+    int rand_array[10];
+
+    insert_random_nums(rand_array, 10);
+    imprimirArray(rand_array, 10);
+
+    cout << endl;
+
+    return 0;
+}
 ```
 
 ## 🛠 Batería de pruebas 🛠

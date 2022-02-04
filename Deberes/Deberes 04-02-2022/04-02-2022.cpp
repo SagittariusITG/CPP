@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 void imprimirArray(int array[], int tamanio){
@@ -53,10 +54,33 @@ void decrement_in_5(int array[], int position){
     }while(array[position] == 0);
 }
 
+void find_true(int array[]){
+    int resp, contador;
+    resp = 0;
+    contador = 0;
+    do{
+        cout << "Encuentra el 1: "; cin >> resp;
+        if(array[contador] == resp){
+            cout << "Has acertado!" << endl;
+        }else{
+            cout << "Prueba otra vez!" << endl;
+        contador++;
+        }
+    }while(array[contador] == resp or contador == 5);
+}
+
+void insert_random_nums(int array[], int size){
+    int n;
+    for(int i = 0; i < size; i++){
+        n = rand() % 100;
+        array[i] = n;
+    }
+}
+
 int main(){
     string mi_nombre;
     int size, respuesta;
-    int greater_than[10], empty_vec[10], copy_greater_than[10];
+    int greater_than[10], empty_vec[10], copy_greater_than[10], rand_array[10];
 
     size = 10;
 
@@ -80,9 +104,16 @@ int main(){
     // EJercicio 3 / 3.1 (4 | 5 en readme)
     respuesta = 0;
     decrement_in_5(copy_greater_than, respuesta);
+    cout << endl << endl;
+
+    // Ejercicio 3.2
+    find_true(empty_vec);
 
     // Ejercicio 4 (7 en readme)
     // Explicación en el README
+
+    insert_random_nums(rand_array, 10);
+    imprimirArray(rand_array, 10);
 
     cout << endl;
 
