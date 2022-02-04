@@ -71,17 +71,17 @@ int main(){
     mayor_que(greater_than, size);
     cout << endl;
 
-    // Ejercicio 2.1
+    // Ejercicio 2.1 (3 en readme)
     cout << endl;
     insert_0_and_1_vec(empty_vec, size);
     imprimirArray(empty_vec, size);
     cout << endl << endl;
 
-    // EJercicio 3 / 3.1
+    // EJercicio 3 / 3.1 (4 | 5 en readme)
     respuesta = 0;
     decrement_in_5(copy_greater_than, respuesta);
 
-    // Ejercicio 4
+    // Ejercicio 4 (7 en readme)
     // Explicación en el README
 
     cout << endl;
