@@ -154,7 +154,7 @@ n_rand = rand % 30 + 1985; // Crea un número random entre 1985 y 2014
 
 * Para el ejercicio 2 simplemente he ido poniendo números partiendo del 5, por ejemplo, `5, 6, 4, 7, 1, 9, 3, 8, 3, 6`.
 
-* Para el ejercicio 3.1
+* Para el ejercicio 3.1 simplemente he copiado el mismo array en otro para poder actuar sobre la copia.
 
 ## ❌ Problemas durante el desarrollo ❌
 

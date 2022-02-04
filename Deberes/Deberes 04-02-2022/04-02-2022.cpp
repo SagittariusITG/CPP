@@ -82,7 +82,7 @@ int main(){
     decrement_in_5(copy_greater_than, respuesta);
 
     // Ejercicio 4
-    // Para crear listas aleatorias hay que importar la libreria <cstdlib>.
+    // Explicación en el README
 
     cout << endl;
 
