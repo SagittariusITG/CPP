@@ -81,6 +81,9 @@ int main(){
     respuesta = 0;
     decrement_in_5(copy_greater_than, respuesta);
 
+    // Ejercicio 4
+    // Para crear listas aleatorias hay que importar la libreria <cstdlib>.
+
     cout << endl;
 
     return 0;

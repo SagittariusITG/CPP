@@ -1,6 +1,6 @@
 # Ejercicios de deberes
 
-Estos son los deberes que puso Celia para el día 03-02-2022 ya que estaba enferma y no pudimos dar clase.
+Estos son los deberes que puso Celia para el día 04-02-2022 ya que estaba enferma y no pudimos dar clase.
 
 ## Enunciados
 
