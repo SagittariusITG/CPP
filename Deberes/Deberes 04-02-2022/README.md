@@ -8,12 +8,12 @@ Estos son los deberes que puso Celia para el día 04-02-2022 ya que estaba enfer
 2. Rellena un vector de tamaño 10 con números mayores a 5 solicitando dichos números desde teclado.
     2.1. Rellena otro vector de tamaño 10 con nueve 0s y un 1.
 3. ¡Di un número del 1 al 10!
-    3.1. En el primer vector decrementa en 5 unidades el número que esté en la posición que se haya introducido por pantalla. Si ese número es menor a 5, la posición debe quedarse a 0.
-    Deja de solicitar números cuando alguna de las posiciones se quede a 0.
-    3.2.En el segundo vector indica si ha acertado la posición que tiene el 1 o si por el contrario tiene que probar suerte otra vez. 
-    Deja de solicitar números cuando se hacierte en qué posición está el 1 o se haya solicitado el número al menos 5 veces sin exito.
+4. En el primer vector decrementa en 5 unidades el número que esté en la posición que se haya introducido por pantalla. Si ese número es menor a 5, la posición debe quedarse a 0.
+Deja de solicitar números cuando alguna de las posiciones se quede a 0.
+5.En el segundo vector indica si ha acertado la posición que tiene el 1 o si por el contrario tiene que probar suerte otra vez. 
+Deja de solicitar números cuando se hacierte en qué posición está el 1 o se haya solicitado el número al menos 5 veces sin exito.
 
-4. Busca infomación sobre cómo se generan números aleatorios en C++. Explica con tus palabras cómo funciona y reescribe la generación de las listas utilizando la aleatoriedad.
+6. Busca infomación sobre cómo se generan números aleatorios en C++. Explica con tus palabras cómo funciona y reescribe la generación de las listas utilizando la aleatoriedad.
 
 ## Ejercicios
 
@@ -65,7 +65,7 @@ int main(){
 
 ### Ejercicio 2.1
 
-Función
+> Función
 
 ```cpp
 void insert_0_and_1_vec(int array[], int size){
@@ -76,7 +76,7 @@ void insert_0_and_1_vec(int array[], int size){
 }
 ```
 
-Main
+> Main
 
 ```cpp
 int empty_vec[10];
@@ -89,7 +89,7 @@ cout << endl << endl;
 
 ### Ejercicio 3 y 3.1
 
-Función
+> Función
 
 ```cpp
 void copy_array(int array[], int arr[], int size){
@@ -111,7 +111,7 @@ void decrement_in_5(int array[], int position){
 }
 ```
 
-Main
+> Main
 
 ```cpp
 int copy_greater_than[10];
