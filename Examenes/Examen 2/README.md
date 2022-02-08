@@ -81,7 +81,7 @@ void pasar_lista(string lista[], int tamanio, string faltas[]){
 }
 ```
 
-> Imprime un array por pantalla.
+> Imprime un array de string por pantalla.
 
 ```cpp
 void imprimir_array(string array[], int tamanio){
@@ -91,14 +91,26 @@ void imprimir_array(string array[], int tamanio){
 }
 ```
 
-> Detecta si un número es múltiplo de 3.
+> Imprime un array de int por pantalla.
 
 ```cpp
-void detectar_multiplo_3(int numeros[], int tamanio){
+void imprimir_array_int(int array[], int tamanio){
     for(int i = 0; i < tamanio; i++){
-        if(numeros[i] % 3 == 0){
-            cout << numeros[i] << endl;
-        }
+        cout << array[i] << " ";
+    }
+}
+```
+
+> Reparte a todos los números el resto de los mismos para que todos sean múltiplos de 3.
+
+```cpp
+void multiplo_3_todo(int comida[], int tamanio){
+    int sobras;
+    sobras = 0;
+    for(int i = 0; i < tamanio; i++){
+        comida[i] += sobras;
+        sobras = comida[i] % 3;
+        comida[i] -= sobras;
     }
 }
 ```

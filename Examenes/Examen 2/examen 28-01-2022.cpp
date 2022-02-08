@@ -47,11 +47,19 @@ void imprimir_array(string array[], int tamanio){
     }
 }
 
-void detectar_multiplo_3(int numeros[], int tamanio){
+void imprimir_array_int(int array[], int tamanio){
     for(int i = 0; i < tamanio; i++){
-        if(numeros[i] % 3 == 0){
-            cout << numeros[i] << endl;
-        }
+        cout << array[i] << " ";
+    }
+}
+
+void multiplo_3_todo(int comida[], int tamanio){
+    int sobras;
+    sobras = 0;
+    for(int i = 0; i < tamanio; i++){
+        comida[i] += sobras;
+        sobras = comida[i] % 3;
+        comida[i] -= sobras;
     }
 }
 
@@ -93,7 +101,9 @@ int main(){
 
 
     // Llamada de la función para detectar múltiplos de 3
-    detectar_multiplo_3(crustaceos, 8);
+    multiplo_3_todo(crustaceos, 8);
+    cout << "Los crustáceos reorganizados quedan así: ";
+    imprimir_array_int(crustaceos, 8);
 
 
     cout << endl;
