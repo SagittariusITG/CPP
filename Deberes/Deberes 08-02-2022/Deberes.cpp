@@ -23,16 +23,13 @@ void aniadir_matriz_deseado(int matriz[size][size], int filas, int columnas){
 }
 
 void tablero(string matriz[sizeAjedrez][sizeAjedrez], int filas, int columnas){
+    char letra;
+    int n;
+    n = 1;
+    letra = 'A';
     for (int i=0;i<filas;i++){
         for(int j=0;j<columnas;j++){
-            char letra;
-            int n;
-            n = 1;
-            letra = 'A';
             matriz[i][j] = letra;
-            if(letra == 'H'){
-                matriz[i][j] = letra + n;
-            }
             letra++;
         }
     }
