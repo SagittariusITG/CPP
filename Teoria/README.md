@@ -60,3 +60,7 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 ## Dia10.cpp
 
 Punteros
+
+## Dia11.cpp
+
+* Crear strings sin saber el length total.
