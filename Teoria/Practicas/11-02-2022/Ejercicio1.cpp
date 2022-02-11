@@ -1,8 +1,6 @@
 // 1. Encontrar los errores mejorables mediante la refactorización.
 // 2. Entender el código.
 // 3. Mejorar el código.
-#include <iostream>
-using namespace std;
 
 int main() {
     int n;
@@ -24,7 +22,7 @@ int main() {
         }
         m = (s+1)/(i-1);
     }
-    if (m > 5){ 
+    if (m >= 5){ 
         cout << "apto";
     }
     else if (m > 9){
