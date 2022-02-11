@@ -11,7 +11,8 @@ Aquí está toda la "teoría" que estamos dando en clase en el ITG.
 * Pregunta por pantalla
 * Imprime por pantalla una frase en relación.
 
-## Dia1.cpp
+## ![Dia1.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/dia1.cpp)
+
 
 * Función.
 * Clase.
