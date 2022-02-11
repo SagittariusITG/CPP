@@ -72,3 +72,4 @@ Punteros
 * Elegir longitud de array.
 * Introducir por pantalla elementos al array.
 * Imprimir por pantalla el array.
+* Rellenar array de double.
