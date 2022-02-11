@@ -64,3 +64,11 @@ Punteros
 ## Dia11.cpp
 
 * Crear strings sin saber el length total.
+* Añadir a elementos en posición.
+
+## Dia12.cpp
+
+* Todo con funciones.
+* Elegir longitud de array.
+* Introducir por pantalla elementos al array.
+* Imprimir por pantalla el array.
