@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void pedir_numeros(double* numero, int &sumatorio, int cantidad){
+void pedir_numeros(double* numero, double &sumatorio, int cantidad){
     for(int i = 0; i < cantidad; i++){
         cout << "Escribe una nota: "; cin >> numero[i];
         sumatorio += numero[i];
@@ -16,9 +16,22 @@ void imprimir_array_double(double* array, int &n){
         cout << array[i] << " ";
     }
 }
+
+void aprobado(double media, int cantidad){
+    if(media >= 5){
+        cout << "apto";
+    }
+    else if(media > 9){
+        cout << "super apto";
+    }
+    else{
+        cout << "No apto";
+    }
+}
+
 int main() {
-    int sumatorio, cantidad;
-    double media;
+    int cantidad;
+    double sumatorio, media;
     double* nota;
     media = 0;
 
@@ -26,24 +39,12 @@ int main() {
     nota = new double[cantidad];
     pedir_numeros(nota, sumatorio, cantidad);
 
-    media = (sumatorio+1)/(cantidad-1);
-    // s = 0;
-    // while (m < 5){
-    //     m = 0;
-    //     n = 0;
-    //     for (i = 0 ; i < 2000; i++){
-    //         cin >> n;
-    //         s += n;
-    //     }
-    //     m = (s+1)/(i-1);
-    // }
-    // if (m >= 5){ 
-    //     cout << "apto";
-    // }
-    // else if (m > 9){
-    //     cout << "super apto";
-    // }
+    media = sumatorio / cantidad;
+
     cout << endl << "Las notas introducidas son: "; imprimir_array_double(nota, cantidad);
-    cout << endl << "Sumatorio = " << sumatorio << endl << "Media = " << media << endl;
+    cout << endl << endl << "Sumatorio = " << sumatorio << endl << "Media = " << media << endl << endl;
+
+    aprobado(media, cantidad);
+    cout << endl;
   return 0;
 }
