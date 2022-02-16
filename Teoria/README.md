@@ -77,4 +77,4 @@ Punteros
 
 ## [Dia13.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia13.cpp)
 
-* Clase array
+* Clase vector
