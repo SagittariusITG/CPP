@@ -74,3 +74,7 @@ Punteros
 * Introducir por pantalla elementos al array.
 * Imprimir por pantalla el array.
 * Rellenar array de double.
+
+## [Dia13.cpp]()
+
+* Clase array
