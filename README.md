@@ -11,6 +11,16 @@ Aquí tendré todo lo que es de programación de c++ que haga en el ITG.
 * VSCode
 * Tower Git
 
+## Primeros pasos
+
+* Instalar 
+* g++ -o [Nombre_objeto] [Nombre_documento]
+* ./[Nombre_documento]
+
+> Ejemplo
+* g++ -o Test.cpp ./test.cpp
+* ./test.cpp
+
 ## Template.cpp
 
 ```cpp
