@@ -43,6 +43,7 @@ int main(){
     // Copiar contenido vector
     vecCopia = vecDou;
     vecCopia[4] = 24;
+    vecCopia.at(6) = 12; // Te salta un error si accede a una posición que no corresponde y no deja continuar con el código
 
     // Imprimir vector
     cout << "El vector original es: ";
