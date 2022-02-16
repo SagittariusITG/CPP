@@ -75,6 +75,6 @@ Punteros
 * Imprimir por pantalla el array.
 * Rellenar array de double.
 
-## [Dia13.cpp]()
+## [Dia13.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia13.cpp)
 
 * Clase array
