@@ -9,7 +9,7 @@ Estos son los deberes que puso Celia para el día 08-02-2022.
 3. Imprimir matriz.
 4. Rellenar matriz como tablero X/O.
 
-## Ejercicios
+## Funciones 🛠
 
 ### Ejercicio 1
 

@@ -22,7 +22,7 @@ Aqui tengo el primer examen hecho en C++.
 Suerte! 
 PD: [Todas las funciones extra son bienvenida]
 
-## Funciones
+## Funciones 🛠
 
 > Esta función te dice la diferencia entre la fecha introducida y la actual.
 

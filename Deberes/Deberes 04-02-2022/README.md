@@ -14,7 +14,7 @@ Deja de solicitar números cuando alguna de las posiciones se quede a 0.
 Deja de solicitar números cuando se hacierte en qué posición está el 1 o se haya solicitado el número al menos 5 veces sin exito.
 7. Busca infomación sobre cómo se generan números aleatorios en C++. Explica con tus palabras cómo funciona y reescribe la generación de las listas utilizando la aleatoriedad.
 
-## Ejercicios
+## Funciones 🛠
 
 ### Ejercicio 2
 

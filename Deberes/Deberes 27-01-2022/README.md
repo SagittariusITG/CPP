@@ -2,7 +2,7 @@
 
 Estos son los deberes que puso Celia para el día 27-01-2022.
 
-## Enunciados
+## Enunciados 📄
 
 1. Escribir un programa que guarde una contraseña y no nos permita avanzar hasta no haber introducido la contraseña correcta.
 2. Escribir un programa que pregunte una edad y responda si la presona es mayor o menor de edad.
@@ -10,9 +10,9 @@ Estos son los deberes que puso Celia para el día 27-01-2022.
 4. Escribir un programa que pregunte un número y responda si es par o impar.
 5. Escribir un programa al que le pases un array de números y devuelva un array con solo los pares.
 
-## Funciones
+## Funciones 🛠
 
-* Bucle para acertar una contraseña.
+> Bucle para acertar una contraseña.
 
 ```cpp
 void contrasenia(string passw, string respuesta){
@@ -23,7 +23,7 @@ void contrasenia(string passw, string respuesta){
 }
 ```
 
-* Verifica la mayoría de edad.
+> Verifica la mayoría de edad.
 
 ```cpp
 void ministerio_espania(int edad, string &respuesta){
@@ -36,7 +36,7 @@ void ministerio_espania(int edad, string &respuesta){
 }
 ```
 
-* Pregunta una nota y responde dependiendo de la nota.
+> Pregunta una nota y responde dependiendo de la nota.
 
 ```cpp
 void notas(float nota, string &respuesta){
@@ -55,7 +55,7 @@ void notas(float nota, string &respuesta){
 }
 ```
 
-* Verifica si un número es par o impar.
+> Verifica si un número es par o impar.
 
 ```cpp
 void es_par(int &num, string &respuesta){
@@ -68,7 +68,7 @@ void es_par(int &num, string &respuesta){
 }
 ```
 
-* Imprime por pantalla un array.
+> Imprime por pantalla un array.
 
 ```cpp
 void imprimirArray(int array[], int tamanio){

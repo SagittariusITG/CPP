@@ -25,7 +25,7 @@ Le pasamos este array con el número de crustáceos que hay en cada pecera:
 [23,74,92,64,27,13,84,73]
 Reorganiza los crustáceos para que en todas las peceras haya un número múltiplo de tres de crustáceos.
 
-## Funciones
+## Funciones 🛠
 
 > Funcion para dar de comer
 

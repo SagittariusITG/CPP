@@ -2,14 +2,14 @@
 
 Estos son los deberes que puso Celia para el día 25-01-2022.
 
-## Enunciado del ejercicio
+## Enunciados 📄
 
 * Rellenar un vector con los 100 primeros números.
 * Sumar de 4 en 4 los números y guardarlos en otro vector.
 
-## Funciones
+## Funciones 🛠
 
-* Rellena un vector con los 100 primeros números.
+> Rellena un vector con los 100 primeros números.
 
 ```cpp
 void aniadir_vector(int array[], int tamanio){
@@ -19,7 +19,7 @@ void aniadir_vector(int array[], int tamanio){
 }
 ```
 
-* Suma los números de 4 en 4 de un vector.
+> Suma los números de 4 en 4 de un vector.
 
 ```cpp
 void sumar_4_en_4(int num[], int tamanio, int sumaNum[]){
@@ -29,7 +29,7 @@ void sumar_4_en_4(int num[], int tamanio, int sumaNum[]){
 }
 ```
 
-* Imprime por pantalla cualquie vector.
+> Imprime por pantalla cualquie vector.
 
 ```cpp
 void imprimirArray(int array[], int tama){

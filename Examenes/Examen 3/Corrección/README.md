@@ -15,7 +15,7 @@ Esta es la corrección del examen de c++ sobre arrays sin clase vector.
 9. Crea una segunda lista solicitando los números por pantalla. Únela a la primera y elimina los números repetidos.
 10. De nuevo con esa segunda lista y la primera, imprime solo los números que aparezcan en las dos listas.
 
-## Funciones
+## Funciones 🛠
 
 > Imprime un array
 

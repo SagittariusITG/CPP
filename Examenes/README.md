@@ -23,9 +23,9 @@ int main(){
 # Template README
 
 ```md
-#Examen
+# Examen
 
 ## Enunciados 📄
 
-## Funciones
+## Funciones 🛠
 ```
