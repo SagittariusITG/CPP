@@ -28,26 +28,28 @@ void copy_array(int array[], int arr[], int size){
 void order_array(int array[], int ordered[], int size){
     int cont, greater;
     cont = 0;
-    greater = 0;
-    for(int i = 0; i < size; i++){
-        if(array[i] > greater){
+    greater = array[0];
+    for(int i = 0; i < size + 1; i++){
+        if(greater < array[i]){
             greater = array[i];
-            cont++;
+            cout << "mayor: " << greater << endl;
         }
+        ordered[i] = greater;
     }
 }
 
-// void non_rep_nums(int array[], int size){
+// void non_rep_nums(int array[], int reps[], int size){
 //     for(int i = 0; i < size; i++){
 //         if(array[i] == array[i]){
-//             delete_array(array[i], 4);
+//             cout << reps[i] << " no " << array[i];
+//             reps[i] = array[i];
 //         }
 //     }
 // }
 
 int main(){
     string nombre;
-    int rands[5]= {7,3,6,8,2}, copia_array[4], ordered[4];
+    int rands[5]= {7,3,6,8,2}, copia_array[4], ordered[4], reps[4];
     int cantidad;
 
     // Ejercicio 1
@@ -85,9 +87,17 @@ int main(){
     cout << endl << endl;
 
     // Ejercicio 7
+    copy_array(copia_array, ordered, cantidad);
     order_array(rands, ordered, cantidad);
     cout << "Los números ordenados son: ";
     imprimirArray(ordered, cantidad);
+    cout << endl << endl;
+
+    // Ejercicio 8
+    // copy_array(rands, reps, cantidad);
+    // non_rep_nums(copia_array, reps, cantidad);
+    // cout << "La lista sin los repetidos es: ";
+    // imprimirArray(reps, cantidad);
 
     cout << endl;
     return 0;
