@@ -1,8 +1,8 @@
-# Correccíon examen Array
+# Correccíon Examen Array
 
 Esta es la corrección del examen de c++ sobre arrays sin clase vector.
 
-## Preguntas
+## Enunciados 📄
 
 1. Imprime tu nombre por pantalla.
 2. Crea un array inicializado por defecto con 5 números aleatorios entre el 0 y el 10.

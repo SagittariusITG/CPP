@@ -2,7 +2,7 @@
 
 Aqui tengo el primer examen hecho en C++.
 
-## Preguntas
+## Enunciados 📄
 
 * Imprime tu nombre por pantalla.
 

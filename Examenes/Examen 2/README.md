@@ -2,7 +2,7 @@
 
 Este es el examen de c++ con temática de pulpos.
 
-## Preguntas
+## Enunciados 📄
 
 * Muestra tu nombre por pantalla.
 * El pulpo tiene hambre: Te va a insultar hasta que le lances crustáceos.

@@ -1,4 +1,4 @@
-# Template
+# Template Código
 
 ```cpp
 #include <iostream>
@@ -18,4 +18,14 @@ int main(){
     cout << endl;
     return 0;
 }
+```
+
+# Template README
+
+```md
+#Examen
+
+## Enunciados 📄
+
+## Funciones
 ```
