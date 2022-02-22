@@ -26,15 +26,12 @@ void copy_array(int array[], int arr[], int size){
 }
 
 void order_array(int array[], int ordered[], int size){
-    int cont, greater;
-    cont = 0;
-    greater = array[0];
+    int min;
+    min = array[0];
     for(int i = 0; i < size + 1; i++){
-        if(greater < array[i]){
-            greater = array[i];
-            cout << "mayor: " << greater << endl;
+        if(array[i] < min){
+            min = array[i];
         }
-        ordered[i] = greater;
     }
 }
 

@@ -69,11 +69,11 @@ void double_position(int array[], int size, int position){
 }
 ```
 
-> Elimina una posición de un array
+> Elimina una posición de un array (DiffForHuman)
 
 ```cpp
 void delete_number_array(int array[], int size, int position){
-    for(int i = 0; i < size; i++){
+    for(int i = (position - 1); i < size; i++){
         array[i] = array[i + 1];
     }
 }
