@@ -78,3 +78,8 @@ Punteros
 ## [Dia13.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia13.cpp)
 
 * Clase vector
+
+## [Dia14.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia14.cpp)
+
+* Clases
+* Con el constructor se inicializa el objeto.
