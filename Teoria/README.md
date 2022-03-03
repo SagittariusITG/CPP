@@ -60,7 +60,7 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 
 ## [Dia10.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia10.cpp)
 
-Punteros
+* Punteros
 
 ## [Dia11.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia11.cpp)
 
