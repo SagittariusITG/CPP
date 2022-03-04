@@ -83,3 +83,7 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 
 * Clases
 * Con el constructor se inicializa el objeto.
+
+## [Dia15.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia15.cpp)
+
+* Clase vector
