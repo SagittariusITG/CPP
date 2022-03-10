@@ -4,7 +4,7 @@ using namespace std;
 
 class Persona{
     string nombre, dni;
-    int edad;
+    int edad, vip;
 
     public:
     Persona(int edad = 18){
@@ -23,6 +23,10 @@ class Persona{
         this->dni = dni;
     }
 
+    void setVip(int vip){
+        this->vip = vip;
+    }
+
     string getNombre(){
         return this->nombre;
     }
@@ -35,6 +39,10 @@ class Persona{
         return this->dni;
     }
 
+    int getVip(){
+        return this->vip;
+    }
+
     void mayoriaEdad(){
         if(this->edad >= 18){
             cout << this->nombre << " es mayor de edad.";
@@ -43,9 +51,25 @@ class Persona{
         }
     }
 
+    void multiplo3(){
+        // int suma;
+
+        // for(int i = 0; i < 3; i++){
+        //     suma += this->vip;
+        // }
+
+        if(this->vip % 11 == 0){
+            cout << "Es multiplo de 11.";
+        } else {
+            cout << "No es multiplo de 11.";
+        }
+    }
+
     void imprimir(){
         cout << "Me llamo " << this->nombre << ", tengo " << this->edad << " años " << "y mi DNI es " << this->dni << endl;
         mayoriaEdad();
+        cout << endl;
+        multiplo3();
     }
 
 };
@@ -62,7 +86,7 @@ int main(){
     cout << endl << endl;
 
     string nombre, dni;
-    int edad;
+    int edad, vip;
 
     cout << "¿Como te llamas? ";
     cin >> nombre;
@@ -70,6 +94,8 @@ int main(){
     cin >> dni;
     cout << "¿Cuantos años tienes? ";
     cin >> edad;
+    cout << "¿Cual es tu número? ";
+    cin >> vip;
 
     // Clase
     Persona p1;
@@ -77,6 +103,7 @@ int main(){
     p1.setNombre(nombre);
     p1.setEdad(edad);
     p1.setDNI(dni);
+    p1.setVip(vip);
     p1.imprimir();
 
     cout << endl;
