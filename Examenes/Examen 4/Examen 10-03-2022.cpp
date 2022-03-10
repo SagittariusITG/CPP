@@ -61,12 +61,22 @@ int main(){
     joel_arnaud();
     cout << endl << endl;
 
+    string nombre, dni;
+    int edad;
+
+    cout << "¿Como te llamas? ";
+    cin >> nombre;
+    cout << "¿Cual es tu DNI? ";
+    cin >> dni;
+    cout << "¿Cuantos años tienes? ";
+    cin >> edad;
+
     // Clase
     Persona p1;
-    cout << "Persona 1: " << endl;
-    p1.setNombre("Joël");
-    p1.setEdad(22);
-    p1.setDNI("41606084g");
+    cout << endl << "Persona 1: " << endl;
+    p1.setNombre(nombre);
+    p1.setEdad(edad);
+    p1.setDNI(dni);
     p1.imprimir();
 
     cout << endl;
