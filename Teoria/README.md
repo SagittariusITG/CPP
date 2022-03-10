@@ -87,3 +87,11 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 ## [Dia15.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia15.cpp)
 
 * Clase vector
+
+## [Dia16.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia16.cpp)
+
+* Clase Poligono
+
+## [Dia17.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia17.cpp)
+
+* Clase Motor
