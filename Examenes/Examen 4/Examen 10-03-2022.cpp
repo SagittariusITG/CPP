@@ -3,15 +3,12 @@
 using namespace std;
 
 class Persona{
-    string nombre;
+    string nombre, dni;
     int edad;
-    vector<string> dni;
 
     public:
-    Persona(string nombre, int edad = 18){
-        this->nombre = nombre;
+    Persona(int edad = 18){
         this->edad = edad;
-        this->dni = dni;
     }
 
     void setNombre(string nombre){
@@ -22,11 +19,9 @@ class Persona{
         this->edad = edad;
     }
 
-    // void setDNI(string dni){
-    //     for(int i = 0; i < 9; i++){
-    //         this->dni.push_back(dni);
-    //     }
-    // }
+    void setDNI(string dni){
+        this->dni = dni;
+    }
 
     string getNombre(){
         return this->nombre;
@@ -36,12 +31,21 @@ class Persona{
         return this->edad;
     }
     
-    // vector<string> getDNI(){
-    //     return this->dni;
-    // }
+    string getDNI(){
+        return this->dni;
+    }
+
+    void mayoriaEdad(){
+        if(this->edad >= 18){
+            cout << this->nombre << " es mayor de edad.";
+        } else {
+            cout << this->nombre << " es menor de edad.";
+        }
+    }
 
     void imprimir(){
-        cout << "Me llamo " << this->nombre << ", tengo " << this->edad << " años "; //<< " y mi DNI es: " << this->dni;
+        cout << "Me llamo " << this->nombre << ", tengo " << this->edad << " años " << "y mi DNI es " << this->dni << endl;
+        mayoriaEdad();
     }
 
 };
@@ -58,10 +62,11 @@ int main(){
     cout << endl << endl;
 
     // Clase
-    Persona p1("");
+    Persona p1;
     cout << "Persona 1: " << endl;
-    p1.setNombre("celia");
-    // p1.setDNI("41606084g");
+    p1.setNombre("Joël");
+    p1.setEdad(22);
+    p1.setDNI("41606084g");
     p1.imprimir();
 
     cout << endl;
