@@ -143,7 +143,7 @@ int main(){
     cin >> dni;
     cout << "¿Cuantos años tienes? ";
     cin >> edad;
-    
+
     numVip = rellenarVector();
 
     // Clase
