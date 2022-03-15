@@ -94,4 +94,9 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 
 ## [Dia17.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia17.cpp)
 
+> Concepto: Herencia por composición o agrupación.
+
 * Clase Motor
+* Clase Ventana
+* Clase Puerta
+* Clase Coche
