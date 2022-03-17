@@ -100,3 +100,7 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 * Clase Ventana
 * Clase Puerta
 * Clase Coche
+
+## [Dia18.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia18.cpp)
+
+* Herencia de clases

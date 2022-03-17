@@ -46,6 +46,11 @@ class Ventana{
         estado = false; // Cerrada
     }
 
+    // Destructor
+    ~Ventana(){
+        cout << "Pasamos " << endl;
+    }
+
     bool getEstado(){
         return this->estado;
     }
