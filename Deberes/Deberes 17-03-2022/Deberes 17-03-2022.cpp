@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class Tablero{
+class Tablero
+{
     char board[0][0];
     int rows, cols;
 
@@ -33,17 +34,73 @@ class Tablero{
         return this->cols;
     }
 
-    void imprimir(int rows = 3, int cols = 3)
+
+    void imprimir()
     {
-        for(int i = 0; i < rows; i++)
+        for(int i = 0; i < this->rows; i++)
         {
             cout << "----------\n";
-            for(int j = 0; j < cols; j++)
+            for(int j = 0; j < this->cols; j++)
             {
                 cout << board[i][j++] << " | " << board[i][j++] << " | " << board[i][j++] << endl;
             }
         }
         cout << "----------\n";
+    }
+};
+
+class Cruz
+{
+    Tablero t4;
+    char cross;
+
+    public:
+
+    Cruz()
+    {
+        this->cross = 'X';
+    }
+
+    void setCross(int pos)
+    {
+        int row = pos / t4.getRows();
+        int col;
+
+        if(pos % t4.getRows() == 0)
+        {
+            row = row - 1;
+            col = 2;
+        }
+        else
+        {
+            col = (pos % t4.getRows()) - 1;
+        }
+        t4.setRows(row);
+        t4.setCols(col);
+    }
+
+
+    void imprimir()
+    {
+        cout << this->cross;
+        this->t4.imprimir();
+    }
+};
+
+class Circulo
+{
+    char circle;
+
+    public:
+
+    Circulo()
+    {
+        this->circle = 'O';
+    }
+
+    void imprimir()
+    {
+        cout << this->circle;
     }
 };
 
@@ -73,6 +130,21 @@ int main()
     t1.setRows(filas);
     t1.setCols(columnas);
     t1.imprimir();
+
+    cout << endl;
+
+    // Llamada clase cruz
+    Cruz c1;
+    // c1.setCross(9);
+    // c1.imprimir();
+
+    cout << endl;
+
+    // Llamada clase circulo
+    Circulo cr1;
+    cr1.imprimir();
+
+    cout << endl;
 
     return 0;
 }
