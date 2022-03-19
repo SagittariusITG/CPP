@@ -33,12 +33,12 @@ class Tablero{
         return this->cols;
     }
 
-    void imprimir()
+    void imprimir(int rows = 3, int cols = 3)
     {
-        for(int i = 0; i < this->rows; i++)
+        for(int i = 0; i < rows; i++)
         {
             cout << "----------\n";
-            for(int j = 0; j < this->cols; j++)
+            for(int j = 0; j < cols; j++)
             {
                 cout << board[i][j++] << " | " << board[i][j++] << " | " << board[i][j++] << endl;
             }
