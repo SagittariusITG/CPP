@@ -49,9 +49,29 @@ class Tablero{
 
 int main()
 {
+    int filas, columnas;
     Tablero t1;
-    // t1.setRows(6);
-    // t1.setCols(6);
+
+    filas = 3;
+    columnas = 3;
+
+    // Introducción
+    cout << "¡Hola! Bienvenid@ a mi Tic-Tac-Toe." << endl << endl << "¿De qué tamaño quieres el tablero? Para dejarlo en default escribe 0, 1 o 2 en las opciones." << endl << "Filas: ";
+    cin >> filas;
+    cout <<  "Columnas: ";
+    cin >> columnas;
+
+    if(filas <= 2 && columnas <= 2)
+    {
+        filas = 3;
+        columnas = 3;
+    }
+
+    cout << endl;
+
+    // Llamada clase tablero
+    t1.setRows(filas);
+    t1.setCols(columnas);
     t1.imprimir();
 
     return 0;
