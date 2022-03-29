@@ -104,3 +104,12 @@ Bucle while pero nu funciona muy bien que digamos, no entiendo que pinta aquí.
 ## [Dia18.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia18.cpp)
 
 * Herencia de clases
+
+## [Dia19.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia19.cpp)
+
+* Herencia de clases
+
+## [Dia20.cpp](https://github.com/SagittariusITG/CPP/blob/main/Teoria/Dia20.cpp)
+
+* Herencias
+* Clase mueble
